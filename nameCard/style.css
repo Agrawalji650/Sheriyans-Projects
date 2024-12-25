@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 9px;
+    border: none;
+    border-radius: px;
+    transition: all 1s ease-in-out;
+}
+h3{
+    margin-bottom: 4px;
+
+}
+h4{
+    margin-bottom: 12px;
+}
+.card:hover{
+    scale:1.2;
+}
+.card:active{
+    scale:1
+}
+p{
+    margin-top: ;
+}

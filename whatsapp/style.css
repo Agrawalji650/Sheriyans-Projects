@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+padding: 0;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 280px;
+    height: 400px;
+    background-color:white;
+    position: relative;
+}
+hr{
+    font-weight: 700;
+}
+.status{
+    margin: 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.profile{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 15px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid rgb(15, 57, 15);
+    object-fit: cover;
+}
+.updates{
+    height: 80%;
+    overflow-y: auto;
+
+}
+.updates::-webkit-scrollbar{
+    display: none;
+}
+.full{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* background-color: blueviolet; */
+    position: absolute;
+}  
+.progress{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(112, 128, 144, 0.818);
+}
+.growth{
+    width: 0%;
+    height: 100%;
+    background-color:black;
+}
